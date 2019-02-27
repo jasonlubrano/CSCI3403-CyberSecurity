@@ -1,0 +1,91 @@
+CSCI3403_22Jan2019_Lec
+
+Biba Integrity Model
+	- various models dealing with integrity
+		- high, medium, low
+	- Strict integrity policy:
+	- inverse/dual of BLP model
+		1. s c S can read o O iff i(s) < i(o)
+		2. s c S can read o O iff i(o) <= i(s)
+		2. s1 c S can read s2 c S iff i(s2) <= i(s1)
+
+Intuition for integrity levels
+	- the higher the level, the more confidence:
+		- that a program will exe correctly
+		- that the data is accurate and/or reliable
+	- Note relatioship between integrity and trutworthiness
+	- important point: integrity levels are not confidentiality levels
+
+Can you run BLP and BIBA at the same time? Yes.
+	- how much integrity and how confidentiality
+	- system can write to higher intnegrity/lower
+	- not compplex when you get it
+
+NIST (National institute of Standard Technology) Framework for Cybersecurity
+	- Cybersecurity Framework
+		- Includes a set of standards, methodologies, procedures and process that align policy, business, and tech approaches to address cyber risk
+		- provide a prioritized, fexable, repeatable, performance based, cost effective approach including info security measures and controls to help owners and operators of critical infrastructire, identify, assess, and manage cyber attacks
+	- The framework is for Organizaitons
+		- of any size in any secture
+		- already have a mature cyber risk mgt system
+		- dont have cyber risk mgt system
+		- anyone
+	- continued improvement of critical infrastructure cybersecurity
+	- Framework consist of 3 big pieces
+		- Framework profile if you say you are who say you are
+	- Framework core
+		- High level version of the framework core
+		- this is what the project is on
+	- Framework Implementation
+		- policy and how it should be implemented
+
+NIST Framework Core
+	- What processes and assets need protection?
+		- asset management, biz envirmn, governace, risk assessment, risk mgt strats
+	- What safeguards are available?
+		- access control, awareness adn training, data security, info prot process & procedures, maintence, protective tech
+	- What techniques can identify incidents?
+		- anomolies and events, security continuous monitoriung, detection processes
+	- What techniques can contain impacts of incidents?
+		- response planning, communication, analysis, mitigation, improvements
+	- What techniques can restore capabilities?
+		- recovery planning, improvements, comms
+
+Key Attributes
+	- Its a framework, not a prescriptive standard
+		- provides a common language and systematic methodology for managing cyber risk
+		- is meant to be adapted
+		- does not tell an org how much cyber risk is tolerable, nor provide "one and only formula"
+		- enable best practives
+	- Its voluntary
+	- Its a living Document
+
+Common Patterns of Use
+	- Integrate the funcitons into your leadership vocab and mgt tool sets
+	- Determine optimal risk mgt using implementation tiers
+	- measure current risk mgt using implemenetaiton tiersr
+	- reflect on biz env, governace, and risk mgt strat categories
+	- develop a profile of cyber securitiy proprities leverging (sub)sector profiles when available
+
+Key Concepts
+	- Core set of CS Concepts
+		- identify protect detect respond recover
+	- any strong cs plan must address all
+		- cant secure what you cant ident
+		- cant provide perf protection
+		- can ponly respond if youre aware an isuse
+		- key objective is not prevent any possible attack but instead to have identified risk, deployed counter measures based on risks, and have plans to recover.
+
+Jeep Chreokee hack
+	- uconnect, connected computer with the stereo dash
+			- break into the cell network in the car
+			- get the CAM messages which control wipers, AC, radio, brakes, acceleromteter, etc.
+	- Chrysler fialed to identify all the pieces and detect wtf to do if commands come from Uconnect
+	- Cars now have intrusion detections
+
+Menlo Report - what are the rules?
+	- What are the rules for cybersecurity
+	- Respect for persons - make sure subject is voluntary
+	- Beneficence - Do not harm
+	- Justice - each person deserves equal consideration in how to be treated
+	- Respect for law and public interest - let the org know you found a vulnerability

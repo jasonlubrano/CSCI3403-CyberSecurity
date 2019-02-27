@@ -1,0 +1,48 @@
+CSCI3403_24Jan2019_Lec
+MONDAY 7:00pm Cyber Security club
+
+
+Motivatin Problems:
+	- Confidentiality: how could we encrpt a message? (Email, web/http, sms, etc)
+	- integrity: How could we authenticate a message?
+	- availability: ?
+
+Cryptography
+	- Classified along three independent dimensions
+		- the type of ops used for transforming plain to cipher text
+		- number of keys used
+		- the way in which plaintext is processed
+
+Symmertric Encryption
+	- the universal technique for providing confidentiality ofr transmitted or storeddata
+	- also referred to as conventional encryption or single-key encryption
+
+Classical Symmetric Cryptography
+	- classical substitution cipher: caesar cipher
+	- change characteris in planetetx to produce ciphertext
+		- pick a key: a letter from a-z
+		- equivalently pick a number from 0-25
+		- encrypt by adding key to each letter in plaintext
+	- example
+		- key D or eq 3
+		- shift each letter forward by 3, wrap around x geos to A
+		- plaintext is HELLO WORLD
+		- Cipertext is KHOOR ZRUOG
+
+Formal Definiton of Caesar Ciper
+	- Quintuple(E, D, M, K, C)
+	- M set of plaintext
+	- K set of keys
+	- C sets of cipher texts
+	- E set of encryption functions e: M x K -> C
+	- D set of decryption functions d: C x K -> M
+
+Attacking the Caesar cipher
+	- Brute force/exhaustive search
+		- simply try all keys until you find the correct one
+		- decrypt using each key and consider whether it produces a valid plaintext message
+		- caesar cipher only has 26 possible keys
+	- Known plaintext attack
+		- adversary has cipher text and corresponding plaintext
+		- recover the key presumaly to decrypt future messages
+		- example: know ciphertext is KHOOR ZRUOG and know plaintext is HELLO WORLD

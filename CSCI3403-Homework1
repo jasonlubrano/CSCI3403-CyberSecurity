@@ -1,0 +1,35 @@
+_________ assures that individuals control or influence what information related to them may be collected and stored and by whom and to whom that information may be disclosed.
+	* privacy
+
+
+Availability assures that systems works promptly and service is not denied to authorized users.
+	* true
+
+
+A loss of _________ is the unauthorized disclosure of information.
+	* confidentiality
+
+
+The assurance that data received are exactly as sent by an authorized entity is __________.
+	* data integrity
+
+
+The “A” in the CIA triad stands for “authenticity”.
+	* False
+
+
+Data integrity assures that information and programs are changed only in a specified and authorized manner.
+	* true
+
+
+Computer security is protection of the integrity, availability, and confidentiality of information system resources.
+	* true
+
+
+Problem 1.4 - "For an organization managing public information on its Web server, assign a low, moderate, or high impact level for the loss of confidentiality. Justify your answers.
+
+	Low: A hacker gets data about the organization through the web server that is publicly released or other information that will have a limited adverse effect on the organization. Since the organization will still be mainly functional, result in minor financial loss, and no harm will come to any individuals this is classified as a low level confidentially breach.
+
+	Moderate: A hacker acquiring serious information about the organization through the web server. This results in serious damaging effects to the organization. The information and data will have to be more secured to receive. In some cases, data and information (that the hacker acquired) may require a medium level security clearance to access by members of the organization. The loss of data confidentiality results in significant damage to the organization, financial loss, and harms individuals but no loss of life, then it is classified as a moderate level confidentiality breach.
+
+	High: The organization had the clients personal records, family history, passwords, credit scores, and medical records breached. The hacker who acquired the info plans to cause catastrophic harm to individuals which will result in the loss of life, catastrophic financial loss (the organization may go under), and the organization is hindered in such a way that it is almost nonfunctional. Due to these results, this breach is classified as a high confidentiality breach.
